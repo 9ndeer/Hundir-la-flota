@@ -76,7 +76,7 @@ class App:
             tk.Button(self.marco, text="Ver/ocultar barcos enemigos",
                       command=self.alternar_trampa).grid(row=3, column=0, columnspan=2)
 
-        # botón de salir (al acabar la partida cambia a "Volver al menú")
+        # botón de salir 
         self.boton_salir = tk.Button(self.marco, text="Salir al menú", command=self.menu)
         self.boton_salir.grid(row=4, column=0, columnspan=2, pady=5)
 

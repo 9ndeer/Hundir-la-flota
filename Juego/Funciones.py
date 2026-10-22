@@ -61,7 +61,7 @@ def texto_resultado(r, rival):
 def jugar(j1, j2, vs_maquina, dificultad="facil"):
     """Si vs_maquina es True, j2 es la máquina."""
     atacante, defensor = j1, j2
-    pausa = not vs_maquina  # en 2 jugadores tapamos la pantalla al cambiar
+    pausa = not vs_maquina  
 
     while True:
         if vs_maquina and atacante is j2:
